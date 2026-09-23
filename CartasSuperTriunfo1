@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
  
 int main() {
  
@@ -18,7 +18,7 @@ float area2;
 float pib2;
 int pontosTuristicos2;
  
-printf("=== Carta 1 ===\n");
+printf("Cadastro da Carta 1\n");
  
 printf("Estado: ");
 scanf(" %c", &estado1);
@@ -41,7 +41,7 @@ scanf("%f", &pib1);
 printf("Pontos Turisticos: ");
 scanf("%d", &pontosTuristicos1);
  
-printf("\n=== Carta 2 ===\n");
+printf("\nCadastro da Carta 2\n");
  
 printf("Estado: ");
 scanf(" %c", &estado2);
@@ -64,9 +64,7 @@ scanf("%f", &pib2);
 printf("Pontos Turisticos: ");
 scanf("%d", &pontosTuristicos2);
  
-printf("\n=== DADOS DAS CARTAS ===\n");
- 
-printf("\nCarta 1\n");
+printf("\n=== Carta 1 ===\n");
 printf("Estado: %c\n", estado1);
 printf("Codigo: %s\n", codigo1);
 printf("Cidade: %s\n", cidade1);
@@ -75,7 +73,7 @@ printf("Area: %.2f\n", area1);
 printf("PIB: %.2f\n", pib1);
 printf("Pontos Turisticos: %d\n", pontosTuristicos1);
  
-printf("\nCarta 2\n");
+printf("\n=== Carta 2 ===\n");
 printf("Estado: %c\n", estado2);
 printf("Codigo: %s\n", codigo2);
 printf("Cidade: %s\n", cidade2);
